@@ -12,10 +12,10 @@ html {
 body {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.6rem;
-    background-image: url(https://live.staticflickr.com/65535/51999990621_96efa72540_b.jpg);
+    background-image: url(https://live.staticflickr.com/65535/51999037977_c5c4cd2433_b.jpg);
     background-size: 104%;
     background-attachment: fixed;
-    backdrop-filter: blur(5px);
+    backdrop-filter: blur(6px);
 }
 /*Body Style*/
 .title hr {
@@ -58,4 +58,10 @@ body {
 }
 .blood_rage_content {
     color: var(--body_color);
+}
+/*Normals*/
+.nago_n_img {
+    display: flex;
+    right: 100px;
+    position: relative;
 }
