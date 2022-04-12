@@ -1,0 +1,8 @@
+.col-6.gio_frame_pict {
+    display: flex;
+    justify-content: flex-end;
+}
+.col-4.test_frame_pict {
+    display: flex;
+    justify-content: flex-end;
+}

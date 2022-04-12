@@ -1,0 +1,79 @@
+:root {
+    --color_nav_bar: #B83232;
+    --color_nav_bar_white: #FAF1F1;
+    --title_character: #1D1C1C
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.6rem;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/88e240b8-3d37-4c91-adf3-ad7f8e41e14e/ddkluy6-880d4191-d513-4748-a5d5-d3594eecca50.png/v1/fill/w_1192,h_670,q_70,strp/guilty_gear__strive__unofficial_4k_wallpaper_by_schmerpderp_ddkluy6-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjE2MCIsInBhdGgiOiJcL2ZcLzg4ZTI0MGI4LTNkMzctNGM5MS1hZGYzLWFkN2Y4ZTQxZTE0ZVwvZGRrbHV5Ni04ODBkNDE5MS1kNTEzLTQ3NDgtYTVkNS1kMzU5NGVlY2NhNTAucG5nIiwid2lkdGgiOiI8PTM4NDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.FRhT6uxxnyEq3Uk40eYy05cfGxo-ru8yr9hPLoAt5Go);
+    background-size: 104%;
+    background-attachment: fixed;
+}
+@font-face {
+    font-family: RED;
+    src: url(https://drive.google.com/file/d/157zxb8WknEGzomkugdnmc7154aI1pBCa/view?usp=sharing);
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border: 2px solid var(--color_nav_bar);
+    align-items: center;
+    background: linear-gradient(45deg, var(--color_nav_bar_white), var(--color_nav_bar));
+}
+.menu {
+    display: inline-flex;
+    color: var(--color_nav_bar_white);
+    list-style: none;
+}
+.menu a{
+    color: var(--color_nav_bar_white);
+}
+.menu a:hover {
+    color: var(--color_nav_bar);
+}
+.menu a:active {
+    color: var(--color_nav_bar_white);
+}
+.menu li {
+    margin: 5px;
+}
+.menu li a {
+    font-weight: 700;
+    text-decoration: none;
+}
+.title {
+    font-family: RED;
+}
+.title h1 {
+    color: var(--title_character);
+    font-weight: bold;
+    text-align: center;
+    font-size: 3rem;
+}
+.title hr {
+    border: 2px dashed var(--color_nav_bar);
+    opacity: 1;
+}
+.footer {
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    border: 1px solid var(--color_nav_bar);
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, white, #B83232);
+    color: var(--color_nav_bar_white);
+    font-weight: bold;
+}
+.footer p {
+    text-align: center;
+}

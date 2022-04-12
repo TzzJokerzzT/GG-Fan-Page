@@ -1,0 +1,84 @@
+:root {
+    --color_nav_bar: #B83232;
+    --color_nav_bar_white: #FAF1F1;
+    --title_character: #1D1C1C
+}
+.main p {
+    font-size: 1.8rem;
+}
+.main hr {
+    border: 2px dashed var(--color_nav_bar);
+    opacity: 1;
+}
+.basic_information {
+    padding: 20px 10px;
+}
+.basic_information {
+    font-family: RED;
+}
+.basic_information h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+.basic_information p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.logo strong {
+    margin-top: 50px;
+    font-size: 0.7rem;
+}
+.menu {
+    display: inline-flex;
+    color: var(--color_nav_bar_white);
+    list-style: none;
+}
+.menu a{
+    color: var(--color_nav_bar_white);
+}
+.menu a:hover {
+    color: var(--color_nav_bar);
+}
+.menu a:active {
+    color: var(--color_nav_bar_white);
+}
+.menu li {
+    margin: 5px;
+}
+.menu li a {
+    font-weight: 700;
+    text-decoration: none;
+}
+.content {
+    width: 100%;
+    padding: 20px 10px;
+    text-align: center;
+}
+.ggvideo {
+    width: 100%;
+    max-width: 560px;
+    margin: 0 auto 15px;
+}
+.ggvideo iframe {
+    width: 100%;
+}
+.games_img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin: 0 auto;
+}
+.games_img img {
+    width: 100%;
+    max-width: 298px;
+    height: 82px;
+}
+
+

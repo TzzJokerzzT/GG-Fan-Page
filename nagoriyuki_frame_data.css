@@ -1,0 +1,60 @@
+:root {
+    --body_color: #FFFFFF
+} 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    background-image: url(https://uc5d39f8b119b28338f8a8fdb858.previews.dropboxusercontent.com/p/thumb/ABe1yylE4omRVq2TsfrIlMfbRbgGmoj7-XZZ78SUhfQRg9G5iA9xMqSMOANk4XPOAhXtIrLKQ2jNzvP6H5sQLQS4U0y1BbHUSrKIMFEr7qaZY58BU3dZ9DsaeytsgBfdz-wavaRHX9x9RieNOezb722q2poTkMPiUiZFZE-nHVbQ2DjtacsorYc6qpK1w2CfZa56i7FyHJw77P4Nof_tmtfxDXTheE2FV5FEqBcQuwWAo81ru2061_584fmOXdDiROFN3SD_V6TE8FsV7N3AA986rJRtxXRfY_eh8cmct_KTJ3sbESAbvFEEu-caA9IA_h-42UV04Viax8ls0MZDuexLIO3gJ1gjakwALVhqbJRp0WQu1sezzimQ7-ktQnGaaVw/p.png);
+    background-size: 104%;
+    background-attachment: fixed;
+}
+/*Body Style*/
+.title hr {
+    border: 2px dashed var(--body_color);
+}
+.title img {
+    margin: 0 auto;
+    display: flex;   
+}
+.title h1 {
+    color: var(--body_color);
+}
+.title p {
+    color: var(--body_color);
+    font-family:Arial, Helvetica;
+    text-align: center;
+}
+/*Table*/
+.table {
+    color: var(--body_color);
+    border: 2px solid var(--body_color);
+}
+.table th{
+    text-align: center;
+    font-size: 2rem;
+}
+.table li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Blood Rage & Blood Gauge*/
+.blood_rage_bar {
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--body_color)
+}
+.blood_rage_bar img {
+    display:flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.blood_rage_content {
+    color: var(--body_color);
+}
